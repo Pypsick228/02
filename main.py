@@ -29,6 +29,6 @@ async def heh(ctx, count_heh = 5):
 async def расстрелять(ctx ,member: discord.Member):
     with open("images/g29jv.gif", "rb") as f:
         picture = discord.File(f)
-    await ctx.send(f'{member.mention}', "был расстрелен", file=picture)
+    await ctx.send(f'{member.mention} был расстрелен', file=picture)
 
 bot.run("XXX")
